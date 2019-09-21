@@ -5,6 +5,7 @@
 \usepackage[left=0.5in,right=0.5in,%
 top=0.75in,bottom=0.75in]{geometry}
 \usepackage{amsthm}
+\usepackage{amsmath}
 
 \title{\heiti 材料表征方法}
 \author{\kaishu 岚岫}
@@ -71,7 +72,19 @@ top=0.75in,bottom=0.75in]{geometry}
             \item 相干散射是X射线衍射分析的基础
         \end{enumerate}
         \item X射线的不相干散射：当X射线与自由电子或受核束缚较弱的电子碰撞时，使电子获得部分能量离开原子核而成为反冲电子，X射线能量损失，而发生波长变长的不相干散射。
-        \item 
+        \item 六方晶系的指数换算：$$\begin{array}{c}{U=u-t, V=v-t, W=w} \\ {u=(2 U-V) / 3} \\ {v=(2 V-U) / 3} \\ {t=-(u+v)} \\ {w=W}\end{array}$$
+        \item 简单点阵的面间距公式：
+        \\正交晶系：$$d_{h k l}=\frac{1}{\sqrt{h^{2} / a^{2}+k^{2} / b^{2}+l^{2} / c^{2}}}$$
+        \\正方晶系：$$d_{h k l}=\frac{1}{\sqrt{\left(h^{2}+k^{2}\right) / a^{2}+l^{2} / c^{2}}}$$
+        \\立方晶系：$$d_{h k l}=\frac{a}{\sqrt{h^{2}+k^{2}+l^{2}}}$$
+        \\六方晶系：$$d_{h k l}=\frac{1}{\sqrt{\frac{4}{3}\left(h^{2}+h k+k^{2}\right) / a^{2}+l^{2} / c^{2}}}$$
+        \item 倒易点阵的性质
+        \item 布拉格方程的应用：
+        \begin{enumerate}
+            \item 布拉格方程是X射线衍射分析中最重要的基础公式，能简单方便的说明衍射基本关系
+            \item 用已知波长$\lambda$的X射线照射晶体，通过衍射角$2\theta$的测量计算晶体中各晶面的面间距$d$，这就是X射线结构分析
+            \item 用已知面间距$d$的晶体反射样品激发的X射线，通过衍射角$2\theta$的测量计算X射线的波长$\lambda$，这就是X射线光谱分析 
+        \end{enumerate}
     \end{enumerate}
     \section{192001材料表征文档考点}
     \begin{enumerate}

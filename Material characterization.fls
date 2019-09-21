@@ -112,6 +112,16 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -133,6 +143,8 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei6c
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/zhmetrics/c70zhkai.fd
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/tex/latex/zhmetrics/c70zhkai.fd
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai5c.tfm
@@ -241,6 +253,9 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong6a.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7c.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8c.tfm
