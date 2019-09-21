@@ -190,6 +190,7 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8f
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei4e.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei79.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei65.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei8b.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei80.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei70.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5c.tfm
@@ -265,7 +266,10 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong6f.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5d.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7d.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei68.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong74.tfm
 INPUT d:/hp/Documents/document/personal_notebook/LaTeX_notebook/Material characterization/Material characterization.aux
+INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
@@ -303,6 +307,7 @@ INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
