@@ -281,8 +281,17 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong6f.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5d.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7d.tfm
-INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei68.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong74.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei68.tfm
 INPUT d:/hp/Documents/document/personal_notebook/LaTeX_notebook/Material characterization/Material characterization.aux
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
@@ -378,6 +387,7 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
