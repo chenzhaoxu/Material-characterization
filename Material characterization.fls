@@ -292,7 +292,9 @@ INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong74.tfm
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei68.tfm
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8e.tfm
 INPUT d:/hp/Documents/document/personal_notebook/LaTeX_notebook/Material characterization/Material characterization.aux
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
@@ -383,6 +385,7 @@ INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT c:/Windows/Fonts/simhei.ttf
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT f:/Downloadapp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
