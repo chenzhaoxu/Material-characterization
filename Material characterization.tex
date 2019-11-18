@@ -20,6 +20,168 @@ top=0.75in,bottom=0.75in]{geometry}
 \section{X射线衍射分析}
 \section{电子显微分析}
 \section{同步辐射}
+    \subsection{同步辐射源}
+    \begin{enumerate}
+        \item 同步辐射(synchrotron radiation)：相对论性带电粒子在电磁场作用下沿弯转轨道行进时发出的电磁辐射，波长有一定范围，因同步辐射源而异，一般包含紫外光、红外光、可见光
+            、X射线
+        \item 同步辐射源主体：将带电粒子加速到并/或维持在相对论性状态的大中型粒子加速器。粒子可以为电子或正电子。加速器可分为环形加速器、电子直线加速器。
+            环形加速器包括储存环与电子同步加速器，以储存环(store ring)为主。电子直线加速器可以为驱动的自由电子激光(free electron laser, FEL)装置。
+        \item 加速度不为0时，运动电荷的电磁场可分为以下几种情况：
+            \begin{enumerate}
+                \item $a<0$, 韧致辐射；
+                \item 粒子低速往复运动，$v$与$a$不断变号，产生震荡电荷的辐射；
+                \item $v~c$, $a$与$v$大致垂直，产生同步辐射
+                \item 近场(near field)：只与速度有关，特征与匀速飞行的电荷的场相同，不产生辐射
+                \item 远场(far field)：坡印廷矢量的大小与加速度的平方成正比，从发光位置指向任意观察点，不断向远方辐射能量，导致非匀速直线运动的电荷能量产生损
+                失。
+            \end{enumerate}
+        \item 同步辐射的特性：
+            \begin{enumerate}
+                \item 光谱：广阔：波长覆盖范围很宽，一般从红外线一直到X射线；连续与平滑：频谱既没有下凹的断点也没有凸起的特征峰；可调性：
+                    使用单色器，可以从光束中选取一定波长与带宽的光
+                \item 高度准直性：同步辐射功率基本上集中在电子弯转轨道的切线方向附近，单个电子在轨道上一点发出的同步辐射好像沿该方向伸出的细窄的光锥，对于单色光
+                    光子能量越高，发散角越小。实际上，光束的水平张角由光束线的光阑开口决定。说明能流密度高
+                \item 高辐射功率
+                \item 高亮度(brilliance)：即高的辐射能量集中程度。同步辐射光源用磁铁聚集结构约束电子束的横截面与发散角，与高辐射功率与高度准直性的优点相结合
+                    使同步辐射光源的亮度远高于常规光源，能在很小的样品照射面积上、很小的空间角度内、很窄的能谱带宽区间提供足够多的单位时间光子数，获得很高的
+                    位置分辨率、角度分辨率、光子能量分辨率。
+                \item 偏振性：同步辐射源具有天然的偏振性。电矢量振动主要在与弯转轨道平面平行的方向上，偏振度依赖于光线与该平面的交角$\theta$，也是波长$\lambda$
+                    的函数。将单个电子的同步辐射矢量分解，当$\theta$为0时，垂直分量不存在，为$100\%$的线偏振；当$\theta$不为0时，同步辐射有不同程度的椭圆偏振
+                    ，旋转方向取决于观察点在平面的上方或下方。对于单色光，光子能量越高，平行分量比重越大，偏振度越高。辐射的偏振性对样品各向异性的实验至关重要
+                \item 脉冲时间结构：电子因同步辐射损失的能量由高频加速电场补充。该电场强度随时间周期变化，必然将电子束分割为若干个不连续的束团。适宜于某些动态过程的研究。
+                \item 高真空环境：光束不必通过隔窗与气体，受到的吸收与污染皆控制在最低限度内，对易被空气吸收的高能紫外线，即真空紫外光(vacuum ultraviolet, VUV)尤为可贵
+                \item 可计算性：发光机制只涉及不受束缚的高能电子及其在磁场中的运动。无需考虑介质密度涨落、化学纯度、温度分布等难以测量的因素。光谱分布、偏振性、角分布等特性
+                    都可以用公式计算
+            \end{enumerate}
+            \item 同步辐射源的分类：
+                \begin{enumerate}
+                    \item 一代光源：寄生运行，辐射是加速电子进行高能物理实验的副产品
+                    \item 二代光源：粒子储存环的出现能让粒子束在环内以不变的能量，沿着固定的轨道稳定运行相当长一段时间。可实现双束高速连续对撞，使粒子反应的有效作用明显增大
+                    \item 三代光源：插入元件的诞生可作为三代光源的出现标志。插入元件即在加速器中原来并未放置磁铁的直线节内安装的一种能产生空间交变磁场的元件
+                    \item 四代光源：主要特征是高度相干的辐射，其亮度远高于三代，还可能有脉冲极短，平均功率高等特点
+                \end{enumerate}
+            \item 同步辐射的运行周期：注入束流、满极速(假设并非满能量注入)、稳定储存、废弃束流、再次注入
+                \begin{enumerate}
+                    \item 注入：将来自注入器的外来电子引入环中，使许多电子被环中的电磁场俘获
+                    \item 慢加速：积累足够多的电子后全环磁场以很慢的速度(典型时间为几分钟)同步增强
+                    \item 注入的几种分类：
+                        \begin{enumerate}
+                            \item 低能注入：衰减到某一程度之后放弃，然后进行磁铁标准化，即电流从0到极大值数次反复，以消除磁滞回线对电流-磁场关系的影响
+                                再根据注入能量重设参数，从0注入，积累束流并慢加速，再从最大流强衰减
+                            \item 满能量注入：机器参数无需变动，以补充束流代替丢弃束流，不必慢加速，若在衰减周期的中途加注一次，虽然最大值不变，但是流强
+                                极小值明显增大，积分流强得益甚多
+                            \item $Top-up$注入：将满能量注入推送到极致，注入频率很高但每次注入的电荷量不多，流强刚有衰减就及时补充，积分流强得到最大化
+                                ，难点：注入的俘获效率必须很高，注入凸轨的匹配与同步必须相当完美
+                        \end{enumerate}
+                    \item 插入元件：在加速器中原来并未放置磁铁的直线节中安装的一种能产生空间交变磁场的元件，在最常见的平面型插入元件中上下相对的多个磁极
+                        沿束流轨道周期性排列，磁场垂直于弯转平面，而符号和大小以类似三角函数的形式交替变化。在这种磁场中，束流必将以很小的振幅左右摇摆
+                        ，蜿蜒前进。扭摆轨迹相对于无插入元件时直线的最大摆动角与同步辐射光锥半顶角的比值称为插入元件参数$K$。插入元件有：
+                        \begin{enumerate}
+                            \item 波荡器(undulator)：$K<=4$，插入元件的峰值磁场不太强，而且磁场的周期较短，束流的摆动角相当小，电子在不同位置发出的光锥充分的重叠，
+                                由于磁场的周期性而产生干涉作用。只有满足特定波长的光才会被加强，其他波长的光减弱。一般有足够多的周期数保证干涉的效果，使辐射的功率集中在
+                                几条谱线附近，故其是亮度非常高的准单色光，亮度比普通的同步辐射功率高上千倍。全光束张角与单电子辐射天然张角相近。
+                            \item 扭摆器(wiggler)：$K>=10$，磁场教导，束流摆动角远大于同步辐射光锥半顶角，轨道扭摆幅度大。电子沿扭摆器全程发出的光扇形散开，基本上不发
+                                光与光的干涉，只有功率的非相干叠加。辐射仍有连续平滑的频谱，与弯转磁铁产生的频谱相似。但因为磁场一般较强，往往有较高的特征光子能量，较
+                                强的辐射功率，光子通量与有效磁极对数成正比。
+                            \item 弯转磁铁(bending magnet)：广阔、连续、平滑
+                            \item 此处需补充若干图片
+                        \end{enumerate}
+                \end{enumerate}
+            \item Important part:monochromator(单色器), mirrors to focus the beam and control the beam, beam defining slits(限束狭缝、限束光阑), 
+                beam position monitors(BPM)(光束位置检测器), filters(take away unwanted radiation)(滤波器), vacuum pumps(真空泵)
+            \item 光束线(beam line)：对同步辐射光源产生的光束进行处理，如聚焦、单色化；将光束传输到实验装置的指定位置。Beam lines can select the 
+                energy (wave length) and focus the beam on the sample, so different energies use different type of beam lines. Synchrotrons 
+                generates energines from IR up to 500 keV, but above 150 keV the intensity is low.
+            \item 前段区：是光束线与储存环的接口，具有真空保护、辐射屏蔽、光束准直及降低光束原件上热负载的功能
+            \item 聚焦：由于物质对真空紫外及X射线的强烈吸收，在此能量波段，不能采用对可见光系统有效的透镜系统，通常采用基于几何原理的反射镜系统来进行光束的聚焦
+                ，反射镜构成的聚焦系统由于像差等因素的影响，聚焦斑点最小尺寸通常大于几十微米。要想达到纳米尺寸的聚焦，目前的技术是采用基于干涉原理的波带片系统
+            \item 单色：目前光的单色化技术都基于光的衍射原理，所使用的光栅间距需要与光的波长相当。X射线的波长~固体中原子间距~晶体单色器；真空紫外、软X射线~
+                远大于固体中原子间距~人工刻画的光栅单色器
+                \begin{enumerate}
+                    \item hard x-rays: above 2.5keV, always use crystal monochromators
+                    \item soft x-rays: below 1.5keV, always use grating monochromators
+                    \item UV beam lines: between 1.5~2.5 eV is difficult
+                \end{enumerate}
+            \item 影响反射镜反射率的因素：
+                \begin{enumerate}
+                    \item 同步辐射诱发光学元件表面的光化学反应。即使在超高真空的条件下，也不可能完全排除$CO,CO_2$等含碳残留气体。故碳化合物对束线光学元件
+                        的污染很难避免
+                    \item 反射镜的表面粗糙度，反射镜可以作为低通滤波器滤去高能量光子，从而消除单色光的高次谐波输出
+                \end{enumerate}
+            \item 平面镜用于偏转光束；球面镜、柱面镜、椭球面镜、抛物面镜、超环面经等曲面镜可以对光束聚焦、放缩或偏转
+            \item 球面镜的像差在掠入射时非常严重；非球面镜加工困难：将平面镜机械压弯，得到希望的柱面或抛物线柱面镜，压完后可以通过改变平面镜的厚度函数来调节
+                压完后的曲面形状
+            \item 超环面镜是可以达到完美聚焦的唯一选择。两种通过压弯机制达到超环面镜聚焦特性的方法：
+                \begin{enumerate}
+                    \item 两个压弯的平面镜分别实现子午线方向与弧矢方向的聚焦
+                    \item 将柱面镜在子午线方向进行压弯
+                \end{enumerate}
+            \item Format定理：所有从A点传播到B点的光线总是走过相同的光程，而且此光程是所有AB间可能光程的极值。
+            \item 面形误差的来源：加工与安装；热负载使镜面温度升高
+            \item 可通过多面反射镜组合的方法来减小像差，但多面反射镜的组合有可能减少光强，一个比较折中的方案是双反射镜系统，典型双反射镜系统有：
+                Kirkpatrick-Baes双反射镜系统、Namioka双球面镜系统
+            \item 波带片可将光斑聚焦到纳米量级，通常来讲反射镜只能将光斑聚焦到微米量级。博导片的效应是基于光的波动性引起的衍射效应，由交错的透明的和不透明的
+                圆环组成
+            \item 光栅单色器根据常用的截面形状可以分为以下几类：补充图片
+                \begin{enumerate}
+                    \item 层状光栅(lamellar)
+                    \item 闪耀光栅(blazed)：更高的效率
+                    \item 正弦光栅(sinusoidal)
+                \end{enumerate}
+            \item 光栅面可以是平面、球面与非球曲面。曲面光栅可以同时完成单色与聚焦的功能。从而省去聚焦反射镜以减小光强损失。由于曲面光栅可以同时完成两项功能，
+                其可以覆盖的能量范围通常较窄。
+            \item 真空紫外光束线的性能指标：光强、能量分辨率
+            \item 晶体单色器：光的衍射效应
+            \item 平晶单色器三种典型配置：补充图片
+            \item 平晶单色器：能量误差与入射光束的角度成正比，故想要得到比较高的分辨率，入射光束必须有较好的准直性。对于发散的光束，可以使用入射狭缝遮蔽大发散角
+                X射线。但这样意味着光强的损失，可以用弯晶单色器来解决上述困境
+            \item Why double crystal mono?
+                \begin{enumerate}
+                    \item Better resolution
+                    \item Beam at the same place all the time
+                    \item Use Bragg law
+                \end{enumerate}
+    \end{enumerate}
+\subsection{同步辐射表征方法}
+    \begin{enumerate}
+            \item Why high energy x-rays for material science?
+                \begin{enumerate}
+                    \item High penetration depth:
+                    \begin{enumerate}
+                        \item Non-destructively bulk properties measurable
+                        \item Deeply buried structure accessible
+                        \item Easy to design special-purpose in-situ equipment(growth, catalysis, strain\dots)
+                    \end{enumerate}
+                    \item Large Ewald sphere
+                    \begin{enumerate}
+                        \item Lines and planes in reciprocal space can be probed
+                        \item Small Bragg angles (5~15), complete diffraction rings @ area detectors
+                        \item Simultaneous WAXS and SAXA possible (广角X射线散射，小角X射线散射)
+                    \end{enumerate}
+                    \item Focusing to spot sizes in nm range possible (low emittance)
+                    \begin{enumerate}
+                        \item High spatial resolution narrowing the gap to electron microscopy
+                        \item Combination of high penetration depth and high flux
+                        \item Very shory data acquisition times possible
+                    \end{enumerate}
+                    \item High intensity (brilliance)
+                    \begin{enumerate}
+                        \item Time-resolved data: 2D area detector read out at 0.1~100Hz
+                        \item Non-.....................of dynamic processes
+                    \end{enumerate}
+                \end{enumerate}
+        \item What happens when a photon hits a surface?
+            \begin{enumerate}
+               \item Photons interact with electron
+               \item Depends on the binding energy
+               \item 补充图片 
+            \end{enumerate}
+        \item 同步辐射的频谱覆盖了从远红外直至$\gamma$射线的电磁波段，对于(软)X射线部分，与物质的相互作用包括散射、折射、吸收、荧光等
+        \item 单个电子对(软)X射线的散射是非常弱的，在距离该电子几厘米处光强已衰弱$10_{-26}$，故只有散射相干叠加为衍射才可以测量
+        \item (软)X射线波段，介质的折射率均略小于1，故为光疏介质。略小于1，十分趋近于1，故介质对(软)X射线的折射不很明显，只有当入射角~90时，即掠入射时
+            ，才会发生明显的折射。对于光疏介质来说，从真空或空气入射到介质表面可能发生全反射。该原理可用于设计(软)X射线波段的反射光学元件，如反射镜、聚光镜等
+        \item (软)X射线的吸收包括
+    \end{enumerate}
 \section{中子科学}
 \section{192001材料表征上课考点}
     \begin{enumerate}
@@ -43,6 +205,12 @@ top=0.75in,bottom=0.75in]{geometry}
             \item X射线具有破坏杀死生物组织细胞的作用
         \end{enumerate}
         \item 管电压、管电流、阳极靶原子序数对连续谱的作用
+            \begin{enumerate}
+                \item 连续X射线谱的特点是：X射线的波长存在最小值$\lambda_{SWL}$，其强度在$\lambda_m$处有最大值
+                \item 当管电压$U$升高时，各波长X射线的强度均提高，短波限$\lambda_{SWL}$，和强度最大值对应的波长$\lambda_m$减小
+                \item 当管电流i增大时，各波长X射线的强度均提高，但是$\lambda_m$与$\lambda_{SWL}$不变
+                \item 随阳极靶材的原子序数增大，连续X射线谱的强度提高，但$\lambda_m$与$\lambda_{SWL}$不变
+            \end{enumerate}
         \item 特征X射线谱的产生
         \begin{enumerate}
             \item 当X射线管压高于靶材相应的某一特征值$U_k$时，在某些特定波长位置上，将出现一系列强度很高、波长范围很窄的线状光谱，称为特征谱或标识谱。
@@ -73,6 +241,7 @@ top=0.75in,bottom=0.75in]{geometry}
         \end{enumerate}
         \item X射线的不相干散射：当X射线与自由电子或受核束缚较弱的电子碰撞时，使电子获得部分能量离开原子核而成为反冲电子，X射线能量损失，而发生波长变长的不相干散射。
         \item 六方晶系的指数换算：$$\begin{array}{c}{U=u-t, V=v-t, W=w} \\ {u=(2 U-V) / 3} \\ {v=(2 V-U) / 3} \\ {t=-(u+v)} \\ {w=W}\end{array}$$
+        \item 十四种布拉菲点阵
         \item 简单点阵的面间距公式：
         \\正交晶系：$$d_{h k l}=\frac{1}{\sqrt{h^{2} / a^{2}+k^{2} / b^{2}+l^{2} / c^{2}}}$$
         \\正方晶系：$$d_{h k l}=\frac{1}{\sqrt{\left(h^{2}+k^{2}\right) / a^{2}+l^{2} / c^{2}}}$$
@@ -80,6 +249,15 @@ top=0.75in,bottom=0.75in]{geometry}
         \\六方晶系：$$d_{h k l}=\frac{1}{\sqrt{\frac{4}{3}\left(h^{2}+h k+k^{2}\right) / a^{2}+l^{2} / c^{2}}}$$
         \item 倒易点阵的性质
         \item 非晶态物质结构的主要特征
+        \item 关于布拉格方程的零散知识点：
+            \begin{enumerate}
+                \item X射线与原子内受束缚较紧的电子相遇时产生的相干散射波，在某些方向相互加强，而在某些方相互减弱，称这种散射波干涉的总结果为衍射
+                \item X射线学以X射线在晶体中的衍射现象作为基础，衍射可以归结为衍射方向和衍射强度两方面的问题
+                \item 衍射方向可以用劳厄方程或布拉格方程导出
+                \item 劳厄方程在本质上解决了X射线衍射方向的问题，但难以直观的表达三维空间的衍射方向
+                \item 布拉格定律将晶体的衍射看成是晶面族在特定方向对X射线的反射，非常简单方便
+            \end{enumerate}
+        \item 布拉格方程的导出
         \item 布拉格方程的应用：
         \begin{enumerate}
             \item 布拉格方程是X射线衍射分析中最重要的基础公式，能简单方便的说明衍射基本关系
@@ -104,10 +282,11 @@ top=0.75in,bottom=0.75in]{geometry}
             \item 消光规律
             \begin{enumerate}
                 \item 简单立方：$h,k,l$为任意整数时，均无消光现象
-                \item 面心立方：$h,k,l$为异性数时，会产生消光，如{110}{100}{210}等面族
-                \item 体心立方：$h+k+l$为奇数时，会产生消光，如{100}{111}{221}等面族
-                \item 密排六方：$h+2k=3n$，且$l$为奇数时，会产生消光，如{001}{11}{221}等面族
+                \item 面心立方：$h,k,l$为异性数时，会产生消光，如\{110\}\{100\}\{210\}等面族
+                \item 体心立方：$h+k+l$为奇数时，会产生消光，如\{100\}\{111\}\{221\}等面族
+                \item 密排六方：$h+2k=3n$，且$l$为奇数时，会产生消光，如\{001\}\{111\}\{221\}等面族
             \end{enumerate}
+            \item 固溶体出现有序化后，使无序固溶体因消光而失去的衍射线重新出现
         \end{enumerate}
         \item 多重因子：某种晶面的等同晶面数增加，参与衍射的几率随之增大，相应衍射强度也随之增加。晶面的等同晶面数对衍射强度的影响，称为多重因子$P$，
             多重因子与晶体的对称性及晶面指数有关。各晶系晶面族的多重因子可见下表：
